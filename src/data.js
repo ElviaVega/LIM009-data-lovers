@@ -4,6 +4,7 @@ const filtrandoPokemonsTipo = (data, condicion) => {
       filtro.type[0] === condicion || filtro.type[1] === condicion);
   return filtrandoPokemons;
 };
+
 window.filtrandoPokemonsTipo = filtrandoPokemonsTipo;
 
 const ordenandoPokemonesAscendente = (data, sortBy) => {
